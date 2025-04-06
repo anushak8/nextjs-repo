@@ -3,7 +3,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-     "seed": "ts-node --loader ts-node/esm scripts/seed.ts",
+    "seed": "ts-node --loader ts-node/esm scripts/seed.ts",
     "start": "next start"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "autoprefixer": "10.4.20",
     "bcryptjs": "^3.0.2",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "next": "latest",
     "next-auth": "5.0.0-beta.25",
     "postcss": "8.5.1",
